@@ -1,0 +1,85 @@
+    1  passwd 
+    2  passwd
+    3  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+    4  git init
+    5  cd ~/Desktop
+    6  pwd
+    7  cd /home/uyen
+    8  ls
+    9  mkdir CS 131
+   10  LS
+   11  ls
+   12  rmkdir 131
+   13  rm 131
+   14  rmdir 131
+   15  rmdir CS
+   16  LS
+   17  ls
+   18  mkdir CS_131
+   19  ls
+   20  cd CS_131
+   21  ls
+   22  git init
+   23  mkdir Worksheet1
+   24  cd Worksheet1
+   25  pwd
+   26  ls
+   27  git init
+   28  git branch
+   29  git status
+   30  vi ws1_test
+   31  ls
+   32  mv  ws1_test ws1_test.txt 
+   33  ls
+   34  vi wst_test.txt
+   35  ls
+   36  git status
+   37  rm *.swp
+   38  rm -f .*.swp
+   39  git status
+   40  vi ws1_test
+   41  ls
+   42  cd CS_131
+   43  ls
+   44  cd Worsheet1
+   45  cd Worksheet1
+   46  ls
+   47  git init
+   48  vi ws1_test
+   49  git status
+   50  rm -f .*.swp
+   51  vi ws1.txt
+   52  git status
+   53  git add wst.txt
+   54  git add ws1.txt
+   55  git commint -m "my first commit"
+   56  git commit -m "my first commit"
+   57    git config --global user.email "you@example.com"
+   58    git config --global user.email "uyenhoang1511@gmail.com"
+   59    git config --global user.name "Your Name"
+   60    git config --global user.name "uyenhoang1511"
+   61  git commit -m "my first commit"
+   62  git remote add origin https://github.com/uyenhoang1511/Worksheet-1.git
+   63  git status
+   64  git push -u origin master
+   65  git branch
+   66  git checkout -b test1
+   67  git branch
+   68  vi ws1.txt
+   69  vi ws1_test.txt
+   70  git add ws1_test.txt
+   71  git status
+   72  git commit -a -m "first commit of new branch"
+   73  history > cmds.log
+   74  ls
+   75  git push origin test1
+   76  git -pull
+   77  git pull
+   78  ls
+   79  cd ..
+   80  ls
+   81  git branch
+   82  git branch -b WS1
+   83  git checkout -b WS1
+   84  git status
+   85  history > cmds.log
