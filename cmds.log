@@ -83,3 +83,110 @@
    83  git checkout -b WS1
    84  git status
    85  history > cmds.log
+   86  git add cmds.log
+   87  git commit -a -m "my first commit"
+   88  git status
+   89  ls
+   90  cd Worsheet1
+   91  cd WorKsheet1
+   92  cd Worksheet1
+   93  ls
+   94  git remote add origin https://github.com/uyenhoang1511/CS131.git
+   95  git branch
+   96  cd ..
+   97  ls
+   98  git branch
+   99  git remote add origin https://github.com/uyenhoang1511/CS131.git
+  100  git push -u WS1
+  101  git push -u origin WS1
+  102  git branch
+  103  git clone -b WS1 https://github.com/uyenhoang1511/CS131.git ws1_uyenhoang 
+  104  echo $shell
+  105  echo $SHELL
+  106  exit
+  107  git clone -b WS1 https://github.com/uyenhoang1511/CS131.git ws1_uyenhoang 
+  108  ls
+  109  ls ws1_uyenhoang
+  110  exit
+  111  cd
+  112  pwwd
+  113  pwd
+  114  ls
+  115  cd CS_131
+  116  LS
+  117  ls
+  118  cd/
+  119  cd /
+  120  pwd
+  121  cd /home/uyen
+  122  man
+  123  mkdir Worksheet2
+  124  ls
+  125  rmdir Worksheet2
+  126  cd CS_131
+  127  ls
+  128  mkdir Worksheet2
+  129  ls
+  130  ls -lat
+  131  ls -latr
+  132  ls --help
+  133  man ls
+  134  ls *.txt
+  135  ls
+  136  cp amazon_reviews_us_Books_v1_02.tsv.gz ===
+  137  ls
+  138  cd CS_131
+  139  ls
+  140  cd Worsheet2
+  141  cd Worksheet2
+  142  pwd
+  143  cp amazon_reviews_us_Books_v1_02.tsv.gz /home/uyen/CS_131/Worksheet2
+  144  cd /home/uyen/CS_131/Worksheet2
+  145  cd /home/uyen
+  146  ls
+  147  cp amazon_reviews_us_Books_v1_02.tsv.gz /home/uyen/CS_131/Worksheet2
+  148  ls
+  149  cd Worksheet2
+  150  cd /home/uyen/CS_131/Worksheet2
+  151  ls
+  152  unzip amazon_reviews_us_Books_v1_02.tsv.gz
+  153  ls
+  154  unzip amazon_reviews_us_Books_v1_02.tsv.gz
+  155  gzip amazon_reviews_us_Books_v1_02.tsv.gz
+  156  ls
+  157  tar xvf amazon_reviews_us_Books_v1_02.tsv.gz
+  158  gzip -d amazon_reviews_us_Books_v1_02.tsv.gz
+  159  ls
+  160  head -n 2 amazon_reviews_us_Books_v1_02.tsv
+  161  grep -P '\tN\tY\t' amazon_reviews_us_Books_v1_02.tsv
+  162  grep -P '\tN\tY\t' amazon_reviews_us_Books_v1_02.tsv |
+  163  grep -P '\tN\tY\t' amazon_reviews_us_Books_v1_02.tsv | wc
+  164  grep -P '\tY\tY\t' amazon_reviews_us_Books_v1_02.tsv | wc
+  165  grep -P '\tY\tY\t' amazon_reviews_us_Books_v1_02.tsv | wc -l
+  166  grep -P '\tN\tY\t' amazon_reviews_us_Books_v1_02.tsv | wc -l
+  167  grep -P '\tY\tN\t' amazon_reviews_us_Books_v1_02.tsv | wc -l
+  168  grep -P '\tN\tN\t' amazon_reviews_us_Books_v1_02.tsv | wc -l
+  169  ls
+  170  cd CS_131
+  171  ls
+  172  cd Worksheet2
+  173  ls
+  174  grep -P '\tN\tN\t' amazon_reviews_us_Books_v1_02.tsv | wc -l
+  175  grep -P '\tN\tN\t' amazon_reviews_us_Books_v1_02.tsv | wc 
+  176  cd CS_131
+  177  cd Worksheet2
+  178  ls
+  179  git master
+  180  git branch
+  181  ls
+  182  cd CS_131
+  183  ls
+  184  cd Worksheet2
+  185  ls
+  186   cd ..
+  187  git init
+  188  git branch
+  189  git checkout -b WS2
+  190  git branch
+  191  vi cmds .log
+  192  history > cmds.log

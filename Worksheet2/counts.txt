@@ -1,0 +1,12 @@
+#For verified review (Y):
+229345: Line counts in verified review (Y)  (using wc).
+1: one Yes before that
+229345 44402549 262426411: Word count in verified review (Y)
+1     315    1710 .  : one yes before that
+
+#For non- verified review (Y):
+
+2876173: Line counts in non-verified review (N)  (using wc).
+1: one Yes before that
+2876173 505766304 2976270807: Word count in non-verified review (N)
+1     584    3410: one YES before that
