@@ -1,0 +1,22 @@
+Script started on 2022-09-15 21:23:02-04:00
+
+#1) Sort the customer IDs in order to find the customer who authored the most reviews. Which customers are the top 3 reviewers (with the most reviews)?
+#cutumerIDS is the second column in the file, I cut the second column and use sort and uniq -c to count the occurences of the ID, then use sort -nr to show the descending of result
+#top 3 customers:  50122160, 50732546,52615377
+]0;uyen@sjsu:~/CS_131/Worksheet3[uyen@sjsu Worksheet3]$ cut  -f4  amazon_reviews_us_Books_v1_02.tsv > col4.tsv[C[1P.tsv1.tsv[1P.tsv2.tsv[1P[1@2
+]0;uyen@sjsu:~/CS_131/Worksheet3[uyen@sjsu Worksheet3]$ cat col2.tsv | sort |uniq -c | sort -nr |head -3
+  21922 50122160
+   9964 50732546
+   2664 52615377
+#2) Sort the products in order to find the product that has the most reviews. What are the top 3 most reviewed products?
+#The ID of product is on the fouthr column of the file. I cut the FOURTH  column and use sort and uniq -c to count the occurences of the PRODUCT ID, then use sort -nr to show the descending of the result
+#top 3 products: 043935806X, 0439139597, 0525947647
+]0;uyen@sjsu:~/CS_131/Worksheet3[uyen@sjsu Worksheet3]$ cat col2.tsv | sort |uniq -c | sort -nr |head -3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cut  -f2  amazon_reviews_us_Books_v1_02.tsv > col2.tsv[1P.tsv4.tsv[C[1P[1@4
+]0;uyen@sjsu:~/CS_131/Worksheet3[uyen@sjsu Worksheet3]$ cut  -f4  amazon_reviews_us_Books_v1_02.tsv > col4.tsv[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pat col2.tsv | sort |uniq -c | sort -nr |head -3[1P[1@4
+   4625 043935806X
+   3739 0439139597
+   2666 0525947647
+]0;uyen@sjsu:~/CS_131/Worksheet3[uyen@sjsu Worksheet3]$ exit
+exit
+
+Script done on 2022-09-15 21:27:07-04:00

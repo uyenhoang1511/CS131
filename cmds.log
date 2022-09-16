@@ -1,0 +1,9 @@
+  734* cut  -f2  amazon_reviews_us_Books_v1_02.tsv > col2.tsv
+  735  ls
+  736   cat col2.tsv | sort | uniq -c |sort -nr | head -3
+  737  cut  -f4  amazon_reviews_us_Books_v1_02.tsv > col4.tsv
+  738   cat col4.tsv | sort | uniq -c |sort -nr | head -3
+  739  history >cmds.log
+  740  ls
+  741  vi cmds.log
+  742  
